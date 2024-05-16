@@ -5,5 +5,5 @@ b) Similares. +- 0,1 segundos.
 c) Se incrementa drasticamente el tiempo de ejecucion ya que está haciendo dos cuentas de 0 a 999, gastando tiempo de procesado inutilmente.
 
 2)
-a) <a src = "./TP3/con_race_condition.c" > // no se si funcione asi jeje, esta en la carpeta tp3
+a) <a href = "./TP3/con_race_condition.c" >codigo resuelto</a>                 // no se si funcione asi jeje, esta en la carpeta tp3
 b) <img src="./TP3/dosbe.png" />
