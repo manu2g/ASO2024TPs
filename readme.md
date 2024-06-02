@@ -1,3 +1,10 @@
+#Practico 4
+
+<img src="./TP4/screen1TP4.png" />
+<img src="./TP4/screen2TP4.png" />
+<img src="./TP4/screen3TP4.png" />
+<img src="./TP4/screen4TP4.png" />
+
 # Práctico 3
 1) 
 a) En mi caso, es predecible hasta cierto punto. El con hilos rondaba 4,05 segundos en ejecutarse, y el sin hilos 5,9 segundos aproximadamente.
