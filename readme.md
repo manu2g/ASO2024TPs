@@ -13,4 +13,4 @@ c) Se incrementa drasticamente el tiempo de ejecucion ya que está haciendo dos 
 
 2)
 a) <a href = "./TP3/con_race_condition.c" >codigo resuelto</a>                 // no se si funcione asi jeje, esta en la carpeta tp3
-b) <img src="./TP3/dosbe.png" />
+b) <img src="./TP3/dosbenew.png" />
