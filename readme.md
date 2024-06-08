@@ -9,8 +9,16 @@
 1) 
 a) En mi caso, es predecible hasta cierto punto. El con hilos rondaba 4,05 segundos en ejecutarse, y el sin hilos 5,9 segundos aproximadamente.
 b) Similares. +- 0,1 segundos.
-c) Se incrementa drasticamente el tiempo de ejecucion ya que está haciendo dos cuentas de 0 a 999, gastando tiempo de procesado inutilmente.
+c) 
+Al ejecutar el codigo con las lineas descomentadas, noté que el programa tardaba más en completarse. Esto se debió a que descomenté dos bucles adicionales dentro de las funciones sumador y restador, que se ejecutaban mil veces cada uno. Aunque cada iteración no hacía nada útil, incrementaba el tiempo total de ejecución.
+
+En resumen, el tiempo de ejecución aumentó debido a estas iteraciones adicionales. Además, el valor final cambió porque, al agregar estos bucles, el acumulador se modificaba durante mil iteraciones más en cada función, afectando el resultado final del programa
 
 2)
+<<<<<<< HEAD
 a) <a href = "./TP3/con_race_condition.c" >codigo resuelto</a>                 // no se si funcione asi jeje, esta en la carpeta tp3
 b) <img src="./TP3/dosbenew.png" />
+=======
+a) <a href = "./TP3/con_race_condition.c" >codigo resuelto</a>   
+b) <img src="./TP3/dosbe.png" />
+>>>>>>> 75b7bff0ddc43ef708d8959bb767de32549041b7
